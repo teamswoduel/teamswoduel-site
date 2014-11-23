@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ebiswodei &amp; Emmanuel - Our Big Day</title>
+    <title>Ebiswodei &amp; Emmanuel - Our Guestbook</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -21,21 +21,8 @@
     <link href="css/main.css" rel="stylesheet" />
 
     <style>
-        #map_canvas {
-            display:inline;
-            width: 100%;
-            height: 400px;
-        }
-        @media (max-width: 480px) {
-            .nav-tabs > li {
-                float: none;
-            }
-        }
-        @media (min-width: 0px) and (max-width: 767px) {
-            #registry {
-                display: inlne-block;
-                margin-top: 20px;
-            }
+        img {
+            margin-top: 3px;
         }
     </style>
 
@@ -47,7 +34,7 @@
     <![endif]-->
 </head>
 
-<body style="background-color:">
+<body>
     <div class="container">
         <div class="row" id="logo-container">
             <div class="col-md-12">
@@ -88,33 +75,34 @@
                     </li>
                     <li role="presentation"><a href="our-bridal-party.html"><i class="fa fa-users fa-lg" style="margin-right:10px;color:black;"></i>Our Bridal Party</a>
                     </li>
-                    <li role="presentation" class="active"><a href="our-big-day.html"><i class="glyphicon glyphicon-link" style="margin-right:10px;color:black;"></i>Our Big Day</a>
+                    <li role="presentation"><a href="our-big-day.html"><i class="glyphicon glyphicon-link" style="margin-right:10px;color:black;"></i>Our Big Day</a>
                     </li>
                     <li role="presentation"><a href="our-registries.html"><i class="fa fa-gift fa-lg" style="margin-right:10px;color:black;"></i>Our Registries</a>
                     </li>
-                    <li role="presentation"><a href="our-guestbook.html"><i class="fa fa-book fa-lg" style="margin-right:10px;color:black;"></i>Our Guestbook</a>
+                    <li role="presentation" class="active"><a href="our-guestbook.html"><i class="fa fa-book fa-lg" style="margin-right:10px;color:black;"></i>Our Guestbook</a>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="row" style="margin-top:20px;">
-            <div class="col-sm-3">
-                <h3 style="margin-top:20px;"><span class="lead" style="color:#D94E67">Our Big Day</span><small> </small></h3>
-                Saturday, 17th February, 2015
-                <br/>3:00pm
-                <br/>
-                <br/>
-                <address>
-                    <strong>Wedding Venue</strong><br/>
-                    Road Name <br/>
-                    Area <br/>
-                    Postcode <br/>
-                    London<br/>
-                    <abbr title="Phone">P:</abbr> (020) 8670-1023
-                </address>
-            </div>
-            <div id="" class="col-sm-6" style="">
-                <iframe style="width:100%;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2482.9279949887473!2d-0.08369100000000002!3d51.514537!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760352b591ae33%3A0xfae02ae370e3bcea!2sThe+Gibson+Hall!5e0!3m2!1sen!2suk!4v1416525352370" width="600" height="450" frameborder="0" style=""></iframe>
+            <div class="col-md-9">
+                <h3 style="margin-top:20px;"><span class="lead" style="color:#D94E67">Our Guestbook</span><small></small></h3>
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                    var disqus_shortname = 'teamswoduel'; // required: replace example with your forum shortname
+
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function () {
+                        var dsq = document.createElement('script');
+                        dsq.type = 'text/javascript';
+                        dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+                </noscript>
             </div>
             <div class="col-sm-3" style="border:1px solid #d3d3d3;border-top:none;border-bottom:none;">
                 <a href="">
@@ -131,11 +119,15 @@
                 <p class="pull-left">Created by <a href="http://www.socialme.co">SocialMe</a> &copy; 2014</p>
             </div>
         </div>
+    </div>
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $('.carousel').carousel();
+    </script>
 </body>
 
 </html>
