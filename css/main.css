@@ -1,2 +1,13 @@
 #logo-container {
-  margin-top: 20px; }
+    margin-top: 20px;
+}
+img {
+    max-width: 100%;
+}
+@media (min-width: 0px) and (max-width: 991px) {
+    #wide-image,
+    #wide-image-container {
+        min-height: 80px;
+        height: 80px;
+    }
+}
