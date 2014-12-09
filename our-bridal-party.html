@@ -32,6 +32,13 @@
                 margin-top: 20px;
             }
         }
+        #load {
+            /*border: 1px solid black;*/
+            background-image: url('img/ajax-loader.gif');
+
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
         .box {
             width: 250px;
             height: 250px;
@@ -138,16 +145,18 @@
             </div>
         </div>
         <div class="row" style="margin-top:20px;">
-            <div class="col-sm-9">
+            <div id="content" class="col-sm-9">
                 <h3 style="margin-top:20px;"><span class="lead" style="color:#D94E67">Our Bridal Party</span><small> Here are just a few of the people that will be involved in making our day really special</small></h3>
                 <div class="row">
-                    <div class="col-sm-4">
-                        <div class="box" style="">
-                            <div class="overlay" style="padding-top:20px;">
-                                <h4 class="overlay-text-top lead" style="font-weight:500;">Jim Brown </h4>
-                                <p class="overlay-text-bottom" style="display:block;margin-top:-15px;text-weight:100;">Best Man</p>
+                    <div class="col-sm-4 thumb">
+                        <a href="joe-bloggs-speech.html">
+                            <div class="box" style="">
+                                <div class="overlay" style="padding-top:20px;">
+                                    <h4 class="overlay-text-top lead" style="font-weight:500;">Jim Brown </h4>
+                                    <p class="overlay-text-bottom" style="display:block;margin-top:-15px;text-weight:100;">Best Man</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-sm-4">
                         <div class="box" style="">
@@ -213,6 +222,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/our-bridal-party-speeches.js"></script>
 </body>
 
 </html>
