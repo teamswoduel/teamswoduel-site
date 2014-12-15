@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ebiswodei &amp; Emmanuel - Nathaniel's Speech</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Parisienne|Allura|Alex+Brush|Calligraffitti|Great+Vibes|Rochester' rel='stylesheet' type='text/css'>
+
+    <!-- Custom Styles -->
+    <link href="../css/main.css" rel="stylesheet" />
+
+    <style>
+        @media (max-width: 480px) {
+            .nav-tabs > li {
+                float: none;
+            }
+        }
+        @media (min-width: 0px) and (max-width: 767px) {
+            #registry {
+                display: inlne-block;
+                margin-top: 20px;
+            }
+        }
+        .box {
+            width: 250px;
+            height: 250px;
+            /*box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);*/
+            border-bottom: 2px solid #fff;
+            border-right: 2px solid #fff;
+            background: url(http://placehold.it/250x250) no-repeat;
+            /*margin:5% auto 0 auto;*/
+            /*overflow: hidden;*/
+        }
+        .box .overlay {
+            position: relative;
+            top: 0px;
+            width: 250px;
+            height: 250px;
+            background: rgba(255, 255, 255, 0.84);
+            opacity: 0;
+            transition: opacity .250s ease;
+            -webkit-transition: opacity .250s ease;
+            -moz-transition: opacity .250s ease;
+        }
+        .box:hover .overlay {
+            opacity: 0.7;
+        }
+        .box:hover .overlay .overlay-text-top {
+            -webkit-transform: translateY(0);
+        }
+        .box:hover .overlay .overlay-text-bottom {
+            -webkit-transform: translateY(0);
+        }
+        .overlay-text-top,
+        .overlay-text-bottom {
+            text-align: center;
+            color: #000;
+            font-size: 18px;
+        }
+        .overlay-text-top {
+            -webkit-transform: translateY(-50%);
+            -webkit-transition: -webkit-transform .5s ease;
+        }
+        .overlay-text-bottom {
+            -webkit-transform: translateY(100%);
+            -webkit-transition: -webkit-transform .5s ease;
+            font-weight: 200;
+        }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body style="background-color:">
+    <div class="container">
+        <div class="row" id="logo-container">
+            <div class="col-md-12">
+                <img src="../img/ej-swodei-logo.png" style="height:150px;display:block;margin-left:auto;margin-right:auto;" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 style="text-align:center;font-family: 'Parisienne';font-weight:bold;font-size:400%;">Ebiswodei &amp; Emmanuel</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <span style="color:#555555;" class="fa fa-calendar fa-5x pull-left"></span>
+                <h3 style="font-weight:300;">February 21, 2015 <small>| London, UK</small></h3>
+            </div>
+        </div>
+        <div class="row" style="margin-top:20px;">
+            <div id="wide-image-container" class="col-sm-12" style="padding-left:0px;padding-right:0px;min-height:80px;">
+                <img id="wide-image" src="http://placehold.it/1170x125" alt="Another image of the couple" style="max-width:100%;width:100%;" />
+            </div>
+        </div>
+        <div class="row" style="margin-top:20px;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="fa fa-bars fa-2x"></span>
+                </button>
+            </div>
+            <div class="col-sm-12 collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav nav-tabs nav-bar-nav">
+                    <li role="presentation"><a href="../index.html"><i class="fa fa-home fa-lg" style="margin-right:10px;color:black;"></i>Home</a>
+                    </li>
+                    <li role="presentation"><a href="../our-story.html"><i class="fa fa-heart-o fa-lg" style="margin-right:10px;color:red;"></i>Team Swoduel Story</a>
+                    </li>
+                    <li role="presentation"><a href="../our-photos.html"><i class="fa fa-camera fa-lg" style="margin-right:10px;color:black"></i>Our Photos</a>
+                    </li>
+                    <li role="presentation" class="active"><a href="../our-bridal-party.html"><i class="fa fa-users fa-lg" style="margin-right:10px;color:black;"></i>Our Bridal Party</a>
+                    </li>
+                    <li role="presentation"><a href="../our-big-day.html"><i class="glyphicon glyphicon-link" style="margin-right:10px;color:black;"></i>Our Big Day</a>
+                    </li>
+                    <li role="presentation"><a href="../our-registries.html"><i class="fa fa-gift fa-lg" style="margin-right:10px;color:black;"></i>Our Registries</a>
+                    </li>
+                    <li role="presentation"><a href="../our-guestbook.html"><i class="fa fa-book fa-lg" style="margin-right:10px;color:black;"></i>Our Guestbook</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" style="margin-top:20px;">
+            <div class="col-sm-9">
+                <span id="content">
+                <h3 style="margin-top:20px;"><span class="lead" style="color:#D94E67">Nathaniel</span><small></small>
+                </h3>
+                <a href="our-bridal-party.html" id="back">
+                    <img src="../img/bridal-party/nathaniel.jpg" alt="" style="height:400px;" />
+                </a>
+                <p style="margin-top:20px;"><span class="lead"><i class="fa fa-quote-left"></i></span>Congratulations to the new Mr and Mrs Jones. EJ your the first brother over the hill, so will be expecting you to show us brothers how to hold it down as an actual husband. I would just like to say thank you to both EJ and Swods for both allowing me to be a part of this wonderful occasion. Swods I really love the way you keep my friend in check, make sure he continues to spoil you and doesn't get comfortable. Now that your both married I can look forward to seeing BABIES in the near future while you both have the energy. God bless you both, Nathaniel.<span class="lead"><i class="fa fa-quote-right"></i></span>
+                </p>
+                </span>
+            </div>
+            <div class="col-sm-3" style="border:1px solid #d3d3d3;border-top:none;border-bottom:none;">
+                <a href="">
+                    <img id="registry" src="../img/registry-image.png" alt="registry" style="display:inline-block;" />
+                </a>
+                <a href="">
+                    <img id="rsvp" src="../img/rsvp-image.png" alt="rsvp" style="display:inlne-block;margin-top:20px;" />
+                </a>
+            </div>
+        </div>
+        <hr style="border-top:1px solid #d3d3d3;" />
+        <div class="row" style="margin-top:20px;">
+            <div class="col-sm-12">
+                <p class="pull-left">Created by <a href="http://www.socialme.co">SocialMe</a> &copy; 2014</p>
+            </div>
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
