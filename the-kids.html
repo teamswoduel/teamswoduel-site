@@ -14,8 +14,7 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Parisienne|Allura|Alex+Brush|Calligraffitti|Great+Vibes|Rochester' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Parisienne|Quicksand:300,400,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom Styles -->
     <link href="css/main.css" rel="stylesheet" />
@@ -23,17 +22,6 @@
     <style>
         #content a {
             text-decoration: none;
-        }
-        @media all (max-width: 480px) {
-            .nav-tabs > li {
-                float: none;
-            }
-        }
-        @media all (min-width: 0px) and (max-width: 767px) {
-            #registry {
-                display: inlne-block;
-                margin-top: 20px;
-            }
         }
         #load {
             /*border: 1px solid black;*/
@@ -97,60 +85,6 @@
             opacity: 1;
             -webkit-opacity: 1;
         }
-        h1 {
-            text-align: center;
-            font-family: 'Parisienne';
-            font-weight: bold;
-            font-size: 400%;
-        }
-        fa-calendar {
-            color: #555555;
-        }
-        .sidebar {
-            border: 1px solid #d3d3d3;
-            border-top: none;
-            border-bottom: none;
-        }
-        .sidebar img {
-            display: inline-block;
-        }
-        .date h3 {
-            font-weight: 300;
-        }
-        #logo-container img {
-            height: 150px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        #wide-image-container {
-            padding-left: 0px;
-            padding-right: 0px;
-            min-height: 80px;
-        }
-        #wide-image-container img {
-            width: 100%;
-            max-width: 100%;
-        }
-        .nav-tabs li i {
-            margin-right: 10px;
-            color: black;
-        }
-        .fa-heart-o {
-            color: #D94E67 !important;
-        }
-        hr {
-            border-top: 1px solid #d3d3d3;
-        }
-        .footer {
-            margin-top: 20px;
-        }
-        .breathing-space-above {
-            margin-top: 20px;
-        }
-        .special-red {
-            color: #D94E67;
-        }
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -163,28 +97,28 @@
 
 <body>
     <div class="container">
-        <div class="row" id="logo-container">
+        <header class="row bg-blue padding-below">
             <div class="col-md-12">
-                <img src="img/ej-swodei-logo.png" />
+                <img src="img/ej-swodei-logo-white.png" />
             </div>
-        </div>
-        <div class="row">
+        </header>
+        <header class="row bg-blue padding-below">
             <div class="col-sm-12">
                 <h1>Ebiswodei &amp; Emmanuel</h1>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 date">
-                <span class="fa fa-calendar fa-5x pull-left"></span>
-                <h3>February 21, 2015 <small>| London, UK</small></h3>
+        </header>
+        <header class="row bg-blue padding-below">
+            <div class="col-sm-12">
+                <span class="fa fa-calendar fa-4x pull-left"></span>
+                <h3>February 21, 2015 <small> | &nbsp; London, UK</small></h3>
             </div>
-        </div>
-        <div class="row breathing-space-above">
-            <div id="wide-image-container" class="col-sm-12">
+        </header>
+        <div class="row bg-beige padding-below">
+            <div id="wide-image-container" class="col-sm-12 padding-above">
                 <img id="wide-image" src="http://placehold.it/1170x125" alt="Another image of the couple" />
             </div>
         </div>
-        <div class="row breathing-space-above">
+        <div class="row bg-beige padding-below padding-above">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -194,17 +128,17 @@
             </div>
             <div class="col-sm-12 collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav nav-tabs nav-bar-nav">
-                    <li role="presentation"><a href="index.html"><i class="fa fa-home fa-lg"></i>Home</a>
+                    <li role="presentation" class="active"><a href="index.html"><i class="fa fa-home fa-lg"></i>Home</a>
                     </li>
-                    <li role="presentation"><a href="our-story.html"><i class="fa fa-heart-o fa-lg"></i>Team Swoduel Story</a>
+                    <li role="presentation"><a href="our-story.html"><i class="fa fa-heart-o fa-lg special-red"></i>Team Swoduel Story</a>
                     </li>
                     <li role="presentation"><a href="our-photos.html"><i class="fa fa-camera fa-lg"></i>Our Photos</a>
                     </li>
-                    <li class="dropdown" role="presentation"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-users fa-lg"></i>Our Bridal Party<span class="caret"></span></a>
+                    <li class="dropdown" role="presentation"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-users fa-lg"></i>Our Bridal Party<i class="fa fa-chevron-down"></i></a>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                             <li role="presentation"><a role="menuitem" tab="-1" href="the-groomsmen.html">The Groomsmen</a>
                             </li>
-                            <li role="presentation"><a role="menuitem" tab="-1" href="the-bridesmaids.html">The Bridesmaids</a>
+                            <li role="presentation"><a role="menuitem" tab="-1" href="#">The Bridesmaids</a>
                             </li>
                             <li role="presentation"><a role="menuitem" tab="-1" href="#">The Kids</a>
                             </li>
@@ -212,7 +146,7 @@
                     </li>
                     <li role="presentation"><a href="our-big-day.html"><i class="glyphicon glyphicon-link"></i>Our Big Day</a>
                     </li>
-                    <li role="presentation"><a href="our-registries.html"><i class="fa fa-gift fa-lg" ></i>Our Registries</a>
+                    <li role="presentation"><a href="our-registries.html"><i class="fa fa-gift fa-lg"></i>Our Registries</a>
                     </li>
                     <li role="presentation"><a href="our-guestbook.html"><i class="fa fa-book fa-lg"></i>Our Guestbook</a>
                     </li>
@@ -309,12 +243,11 @@
                 </a>
             </div>
         </div>
-        <hr />
-        <div class="row footer">
+        <footer class="row bg-blue padding-below padding-above">
             <div class="col-sm-12">
-                <p class="pull-left">Created by <a href="http://www.socialme.co">SocialMe</a> &copy; 2014</p>
+                <p class="text-left">Created by <a href="http://www.socialme.co">SocialMe</a> &copy; 2014 All rights reserved.</p>
             </div>
-        </div>
+        </footer>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
