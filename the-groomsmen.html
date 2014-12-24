@@ -20,71 +20,6 @@
     <link href="css/main.css" rel="stylesheet" />
 
     <style>
-        #content a {
-            text-decoration: none;
-        }
-        #load {
-            /*border: 1px solid black;*/
-            background-image: url('img/ajax-loader.gif');
-            background-repeat: no-repeat;
-            background-position: center center;
-        }
-        .box {
-            width: 250px;
-            height: 250px;
-            /*box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);*/
-            border-bottom: 2px solid #fff;
-            border-right: 2px solid #fff;
-            background: url(http://placehold.it/250x250) no-repeat;
-            /*margin:5% auto 0 auto;*/
-            /*overflow: hidden;*/
-        }
-        .box .overlay {
-            position: relative;
-            top: 0px;
-            width: 250px;
-            height: 250px;
-            background: rgba(255, 255, 255, 0.84);
-            opacity: 0;
-            transition: opacity .250s ease;
-            -webkit-transition: opacity .250s ease;
-            -moz-transition: opacity .250s ease;
-            padding-top: 20px;
-        }
-        .box:hover .overlay {
-            opacity: 0.7;
-        }
-        .box:hover .overlay .overlay-text-top {
-            -webkit-transform: translateY(0);
-        }
-        .box:hover .overlay .overlay-text-bottom {
-            -webkit-transform: translateY(0);
-        }
-        .overlay-text-top,
-        .overlay-text-bottom {
-            display: block;
-            margin-top: -15px;
-            text-weight: 100;
-            opactity: 1;
-            -webkit-opacity: 1;
-            text-align: center;
-            color: #000;
-            font-size: 18px;
-        }
-        .overlay-text-top {
-            -webkit-transform: translateY(-50%);
-            -webkit-transition: -webkit-transform .5s ease;
-            font-weight: 500;
-            opacity: 1;
-            -webkit-opacity: 1;
-        }
-        .overlay-text-bottom {
-            -webkit-transform: translateY(100%);
-            -webkit-transition: -webkit-transform .5s ease;
-            font-weight: 200;
-            opacity: 1;
-            -webkit-opacity: 1;
-        }
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -96,7 +31,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <header class="row bg-blue padding-below">
             <div class="col-md-12">
                 <img src="img/ej-swodei-logo-white.png" />
@@ -128,19 +63,19 @@
             </div>
             <div class="col-sm-12 collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav nav-tabs nav-bar-nav">
-                    <li role="presentation" class="active"><a href="index.html"><i class="fa fa-home fa-lg"></i>Home</a>
+                    <li role="presentation"><a href="index.html"><i class="fa fa-home fa-lg"></i>Home</a>
                     </li>
                     <li role="presentation"><a href="our-story.html"><i class="fa fa-heart-o fa-lg special-red"></i>Team Swoduel Story</a>
                     </li>
                     <li role="presentation"><a href="our-photos.html"><i class="fa fa-camera fa-lg"></i>Our Photos</a>
                     </li>
-                    <li class="dropdown" role="presentation"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-users fa-lg"></i>Our Bridal Party<i class="fa fa-chevron-down"></i></a>
+                    <li class="dropdown active" role="presentation"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-users fa-lg"></i>Our Bridal Party<i class="fa fa-chevron-down"></i></a>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                             <li role="presentation"><a role="menuitem" tab="-1" href="the-groomsmen.html">The Groomsmen</a>
                             </li>
-                            <li role="presentation"><a role="menuitem" tab="-1" href="#">The Bridesmaids</a>
+                            <li role="presentation"><a role="menuitem" tab="-1" href="the-bridesmaids.html">The Bridesmaids</a>
                             </li>
-                            <li role="presentation"><a role="menuitem" tab="-1" href="#">The Kids</a>
+                            <li role="presentation"><a role="menuitem" tab="-1" href="the-kids.html">The Kids</a>
                             </li>
                         </ul>
                     </li>
@@ -330,16 +265,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3 sidebar">
+            <div class="col-sm-3 regrsvp">
                 <a href="">
-                    <img id="registry" src="img/registry-image.png" alt="registry" />
+                    <img class="registry" src="img/registry-image.png" alt="registry" />
                 </a>
                 <a href="">
-                    <img id="rsvp" class="breathing-space-top" src="img/rsvp-image.png" alt="rsvp" />
+                    <img class="rsvp breathing-space-above" src="img/rsvp-image.png" alt="rsvp" />
                 </a>
             </div>
         </div>
-        <footer class="row bg-blue padding-below padding-above">
+        <footer class="row bg-blue padding-below padding-above breathing-space-above">
             <div class="col-sm-12">
                 <p class="text-left">Created by <a href="http://www.socialme.co">SocialMe</a> &copy; 2014 All rights reserved.</p>
             </div>

@@ -11,14 +11,24 @@ body {
     font-family: Quicksand;
     letter-spacing: -1px;
 }
+.blue {
+    color: #243A6B;
+}
+body p,
+body address {
+    color: #243A6B;
+}
 ul li a {
     color: #243A6B;
 }
-.bg-beige {
+.bg-beige,
+body {
     background-color: #ebdec0;
+    background-image: url('../img/gplaypattern.png');
 }
 .bg-blue {
     background-color: #243A6B;
+    background-image: url('../img/weave.png');
 }
 .padding-below {
     padding-bottom: 20px;
@@ -62,7 +72,7 @@ h3 small {
     color: #243A6B;
 }
 .nav-tabs {
-    border-bottom: 1px solid #fff
+    border-bottom: none;
 }
 .nav-tabs li a i {
     margin-right: 10px;
@@ -79,10 +89,8 @@ h3 small {
     color: #243A6B;
 }
 .regrsvp {
-    border: 1px solid #fff;
-    border-top: none;
-    border-bottom: none;
-    border-right: none;
+    /*border: 1px solid #fff;*/
+    border: none;
 }
 .regrsvp .registry,
 .rsvp {
@@ -97,9 +105,105 @@ footer p {
 footer p a {
     color: #fff;
 }
+footer p {
+    color: #E5A91C;
+}
 .nav-tabs li a i.fa-heart-o {
     color: #D94E67;
 }
+.nav-tabs li a i.fa-heart {
+    color: #D94E67;
+}
+.nav-tabs>li>a {
+    border: none;
+    transition: color 0.2s ease-in-out 0.2s, font-weight 0.2s ease-in-out 0.2s, border 0.2s ease-in-out;
+}
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+    background-color: #ebdec0;
+    background-image: url('../img/gplaypattern.png');
+    border: none;
+    border-bottom: 2px solid #243A6B;
+    color: #D94E67;
+    font-weight: 500;
+}
+.nav>li>a:hover,
+.nav>li>a:focus {
+    background-color: #ebdec0;
+    background-image: url('../img/gplaypattern.png');
+    border-bottom: 2px solid #243A6B;
+    color: #D94E67;
+}
+/* Styles for the hover to work */
+
+#content a {
+    text-decoration: none;
+}
+#load {
+    /*border: 1px solid black;*/
+    background-image: url('img/ajax-loader.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.box {
+    width: 250px;
+    height: 250px;
+    /*box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);*/
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    background: url(http://placehold.it/250x250) no-repeat;
+    /*margin:5% auto 0 auto;*/
+    /*overflow: hidden;*/
+}
+.box .overlay {
+    position: relative;
+    top: 0px;
+    width: 250px;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.84);
+    opacity: 0;
+    transition: opacity .250s ease;
+    -webkit-transition: opacity .250s ease;
+    -moz-transition: opacity .250s ease;
+    padding-top: 20px;
+}
+.box:hover .overlay {
+    opacity: 0.7;
+}
+.box:hover .overlay .overlay-text-top {
+    -webkit-transform: translateY(0);
+}
+.box:hover .overlay .overlay-text-bottom {
+    -webkit-transform: translateY(0);
+}
+.overlay-text-top,
+.overlay-text-bottom {
+    display: block;
+    margin-top: -15px;
+    text-weight: 100;
+    opactity: 1;
+    -webkit-opacity: 1;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+}
+.overlay-text-top {
+    -webkit-transform: translateY(-50%);
+    -webkit-transition: -webkit-transform .5s ease;
+    font-weight: 500;
+    opacity: 1;
+    -webkit-opacity: 1;
+}
+.overlay-text-bottom {
+    -webkit-transform: translateY(100%);
+    -webkit-transition: -webkit-transform .5s ease;
+    font-weight: 200;
+    opacity: 1;
+    -webkit-opacity: 1;
+}
+/* Media queries */
+
 @media (max-width: 480px) {
     .nav-tabs > li {
         float: none;
