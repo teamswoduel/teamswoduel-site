@@ -31,7 +31,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <header class="row bg-blue padding-below">
             <div class="col-md-12">
                 <img src="img/ej-swodei-logo-white.png" />
@@ -63,7 +63,7 @@
             </div>
             <div class="col-sm-12 collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav nav-tabs nav-bar-nav">
-                    <li role="presentation" class="active"><a href="index.html"><i class="fa fa-home fa-lg"></i>Home</a>
+                    <li role="presentation"><a href="index.html"><i class="fa fa-home fa-lg"></i>Home</a>
                     </li>
                     <li role="presentation"><a href="our-story.html"><i class="fa fa-heart-o fa-lg special-red"></i>Team Swoduel Story</a>
                     </li>
@@ -73,9 +73,9 @@
                         <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                             <li role="presentation"><a role="menuitem" tab="-1" href="the-groomsmen.html">The Groomsmen</a>
                             </li>
-                            <li role="presentation"><a role="menuitem" tab="-1" href="#">The Bridesmaids</a>
+                            <li role="presentation"><a role="menuitem" tab="-1" href="the-bridesmaids.html">The Bridesmaids</a>
                             </li>
-                            <li role="presentation"><a role="menuitem" tab="-1" href="#">The Kids</a>
+                            <li role="presentation"><a role="menuitem" tab="-1" href="the-kids.html">The Kids</a>
                             </li>
                         </ul>
                     </li>
@@ -83,14 +83,14 @@
                     </li>
                     <li role="presentation"><a href="our-registries.html"><i class="fa fa-gift fa-lg"></i>Our Registries</a>
                     </li>
-                    <li role="presentation"><a href="our-guestbook.html"><i class="fa fa-book fa-lg"></i>Our Guestbook</a>
+                    <li role="presentation" class="active"><a href="our-guestbook.html"><i class="fa fa-book fa-lg"></i>Our Guestbook</a>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="row" style="margin-top:20px;">
+        <div class="row">
             <div class="col-md-9">
-                <h3 style="margin-top:20px;"><span class="lead" style="color:#D94E67">Our Guestbook</span><small></small></h3>
+                <h3><span class="lead special-red">Our Guestbook</span><small></small></h3>
                 <div id="disqus_thread"></div>
                 <script type="text/javascript">
                     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -108,16 +108,16 @@
                 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
                 </noscript>
             </div>
-            <div class="col-sm-3" style="border:1px solid #d3d3d3;border-top:none;border-bottom:none;">
+            <div class="col-sm-3 regrsvp">
                 <a href="">
-                    <img id="registry" src="img/registry-image.png" alt="registry" style="display:inline-block;" />
+                    <img class="registry" src="img/registry-image.png" alt="registry" />
                 </a>
                 <a href="">
-                    <img id="rsvp" src="img/rsvp-image.png" alt="rsvp" style="display:inlne-block;margin-top:20px;" />
+                    <img class="rsvp breathing-space-above" src="img/rsvp-image.png" alt="rsvp" />
                 </a>
             </div>
         </div>
-        <footer class="row bg-blue padding-below padding-above">
+        <footer class="row bg-blue padding-below padding-above breathing-space-above">
             <div class="col-sm-12">
                 <p class="text-left">Created by <a href="http://www.socialme.co">SocialMe</a> &copy; 2014 All rights reserved.</p>
             </div>
