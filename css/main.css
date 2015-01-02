@@ -61,8 +61,8 @@ h3 small {
 }
 #wide-image,
 #wide-image-container {
-    min-height: 100px;
-    height: 100px;
+    min-height: 200px;
+    height: 200px;
 }
 #wide-image {
     width: 100%;
