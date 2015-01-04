@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ebiswodei &amp; Emmanuel - Knacai's Speech</title>
+    <title>Ebiswodei &amp; Emmanuel - Obi's Speech</title>
 
     <!-- Bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet" />
@@ -14,69 +14,13 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Parisienne|Allura|Alex+Brush|Calligraffitti|Great+Vibes|Rochester' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Parisienne|Quicksand:300,400,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom Styles -->
     <link href="../css/main.css" rel="stylesheet" />
 
+
     <style>
-        @media (max-width: 480px) {
-            .nav-tabs > li {
-                float: none;
-            }
-        }
-        @media (min-width: 0px) and (max-width: 767px) {
-            #registry {
-                display: inlne-block;
-                margin-top: 20px;
-            }
-        }
-        .box {
-            width: 250px;
-            height: 250px;
-            /*box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);*/
-            border-bottom: 2px solid #fff;
-            border-right: 2px solid #fff;
-            background: url(http://placehold.it/250x250) no-repeat;
-            /*margin:5% auto 0 auto;*/
-            /*overflow: hidden;*/
-        }
-        .box .overlay {
-            position: relative;
-            top: 0px;
-            width: 250px;
-            height: 250px;
-            background: rgba(255, 255, 255, 0.84);
-            opacity: 0;
-            transition: opacity .250s ease;
-            -webkit-transition: opacity .250s ease;
-            -moz-transition: opacity .250s ease;
-        }
-        .box:hover .overlay {
-            opacity: 0.7;
-        }
-        .box:hover .overlay .overlay-text-top {
-            -webkit-transform: translateY(0);
-        }
-        .box:hover .overlay .overlay-text-bottom {
-            -webkit-transform: translateY(0);
-        }
-        .overlay-text-top,
-        .overlay-text-bottom {
-            text-align: center;
-            color: #000;
-            font-size: 18px;
-        }
-        .overlay-text-top {
-            -webkit-transform: translateY(-50%);
-            -webkit-transition: -webkit-transform .5s ease;
-        }
-        .overlay-text-bottom {
-            -webkit-transform: translateY(100%);
-            -webkit-transition: -webkit-transform .5s ease;
-            font-weight: 200;
-        }
     </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -87,30 +31,30 @@
     <![endif]-->
 </head>
 
-<body style="background-color:">
-    <div class="container">
-        <div class="row" id="logo-container">
+<body>
+    <div class="container-fluid">
+        <header class="row bg-blue padding-below">
             <div class="col-md-12">
-                <img src="../img/ej-swodei-logo.png" style="height:150px;display:block;margin-left:auto;margin-right:auto;" />
+                <img src="../img/ej-swodei-logo-white.png" />
             </div>
-        </div>
-        <div class="row">
+        </header>
+        <header class="row bg-blue padding-below">
             <div class="col-sm-12">
-                <h1 style="text-align:center;font-family: 'Parisienne';font-weight:bold;font-size:400%;">Ebiswodei &amp; Emmanuel</h1>
+                <h1>Ebiswodei &amp; Emmanuel</h1>
             </div>
-        </div>
-        <div class="row">
+        </header>
+        <header class="row bg-blue padding-below">
             <div class="col-sm-12">
-                <span style="color:#555555;" class="fa fa-calendar fa-5x pull-left"></span>
-                <h3 style="font-weight:300;">February 21, 2015 <small>| London, UK</small></h3>
+                <span class="fa fa-calendar fa-4x pull-left"></span>
+                <h3>February 21, 2015 <small> | &nbsp; London, UK</small></h3>
+            </div>
+        </header>
+        <div class="row bg-beige padding-below">
+            <div id="wide-image-container" class="col-sm-12 padding-above">
+                <img id="wide-image" src="../img/pre-wedding-shoot/header.png" alt="Another image of the couple" />
             </div>
         </div>
-        <div class="row" style="margin-top:20px;">
-            <div id="wide-image-container" class="col-sm-12" style="padding-left:0px;padding-right:0px;min-height:80px;">
-                <img id="wide-image" src="img/pre-wedding-shoot/header.png" alt="Another image of the couple" style="max-width:100%;width:100%;" />
-            </div>
-        </div>
-        <div class="row" style="margin-top:20px;">
+        <div class="row bg-beige padding-below padding-above">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -120,62 +64,60 @@
             </div>
             <div class="col-sm-12 collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav nav-tabs nav-bar-nav">
-                    <li role="presentation"><a href="../index.html"><i class="fa fa-home fa-lg" style="margin-right:10px;color:black;"></i>Home</a>
+                    <li role="presentation"><a href="../index.html"><i class="glyphicon glyphicon-home"></i>Home</a>
                     </li>
-                    <li role="presentation"><a href="../our-story.html"><i class="fa fa-heart-o fa-lg" style="margin-right:10px;color:red;"></i>Team Swoduel Story</a>
+                    <li role="presentation"><a href="../our-story.html"><i class="fa fa-heart-o fa-lg special-red"></i>Team Swoduel Story</a>
                     </li>
-                    <li role="presentation"><a href="../our-photos.html"><i class="fa fa-camera fa-lg" style="margin-right:10px;color:black"></i>Our Photos</a>
+                    <li role="presentation"><a href="../our-photos.html"><i class="fa fa-camera fa-lg"></i>Our Photos</a>
                     </li>
-                    <li class="dropdown" role="presentation"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-users fa-lg" style="margin-right:10px;color:black;"></i>Our Bridal Party<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <li class="dropdown active" role="presentation"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-users fa-lg"></i>Our Bridal Party<i class="fa fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu bg-beige" role="menu" aria-labelledby="dropdownMenu1">
                             <li role="presentation"><a role="menuitem" tab="-1" href="../the-groomsmen.html">The Groomsmen</a>
                             </li>
-                            <li role="presentation"><a role="menuitem" tab="-1" href="the-bridesmaids.html">The Bridesmaids</a>
+                            <li role="presentation"><a role="menuitem" tab="-1" href="../the-bridesmaids.html">The Bridesmaids</a>
                             </li>
-                            <li role="presentation"><a role="menuitem" tab="-1" href="the-ushers.html">The Ushering Team</a>
+                            <li role="presentation"><a role="menuitem" tab="-1" href="../the-kids.html">The Kids</a>
+                            </li>
+                            <li role="presentation"><a role="menuitem" tab="-1" href="../the-ushers.html">The Ushering Team</a>
                             </li>
                         </ul>
                     </li>
-                    <li role="presentation"><a href="../our-big-day.html"><i class="glyphicon glyphicon-link" style="margin-right:10px;color:black;"></i>Our Big Day</a>
+                    <li role="presentation"><a href="../our-big-day.html"><i class="glyphicon glyphicon-link"></i>Our Big Day</a>
                     </li>
-                    <li role="presentation"><a href="../our-registries.html"><i class="fa fa-gift fa-lg" style="margin-right:10px;color:black;"></i>Our Registries</a>
+                    <li role="presentation"><a href="../our-registries.html"><i class="glyphicon glyphicon-gift"></i>Our Registries</a>
                     </li>
-                    <li role="presentation"><a href="../our-guestbook.html"><i class="fa fa-book fa-lg" style="margin-right:10px;color:black;"></i>Our Guestbook</a>
+                    <li role="presentation"><a href="../our-guestbook.html"><i class="glyphicon glyphicon-book"></i>Our Guestbook</a>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="row" style="margin-top:20px;">
+        <div class="row">
             <div class="col-sm-9">
                 <span id="content">
-                <h3 style="margin-top:20px;"><span class="lead" style="color:#D94E67">Obi</span><small></small>
+                <h3 class="no-breathing-space-above"><span class="special-red">Obi</span><small></small>
                 </h3>
-                <a href="our-bridal-party.html" id="back">
-                    <img src="../img/bridal-party/obi.jpg" alt="" style="height:400px;" />
-                </a>
-                <p style="margin-top:20px;"><span class="lead"><i class="fa fa-quote-left"></i></span>Growing up as the youngest of two with my dad living abroad for the most of my teenage life. I was blessed to have an older sister, Amaka there to help guide my footsteps and advise me on some of the unspoken day-to-day issues concerning 'becoming a man'. However, as you can imagine, this wasn't always the most straight forward of roles and being my elder cousin, this is where Ejay stepped in.</p>
+                <img class="speech-pic" src="../img/bridal-party/obi.jpg" alt="" />
+                <p class="breathing-space-above"><span class="lead"><i class="fa fa-quote-left"></i></span>Growing up as the youngest of two with my dad living abroad for the most of my teenage life. I was blessed to have an older sister, Amaka there to help guide my footsteps and advise me on some of the unspoken day-to-day issues concerning 'becoming a man'. However, as you can imagine, this wasn't always the most straight forward of roles and being my elder cousin, this is where Ejay stepped in.</p>
                 <p>Being of similar age to my sister, Amaka and Ejay would keep in contact about my well being, with Ejay advising both her and consequently myself, on how best to keep me on the straight and narrow. Although I was too young to really understand or appreciate the interest being taken in me, I was always aware of it.</p>
                 <p>I remember being around 13 or so and spending a weekend with Ejay. He (reluctantly) gave me permission to get a haircut both of our parents didn't exactly approve of - I think Nike ticks where in fashion back then lol. He then bought me my first ever Morley's and I remember ending the weekend playing basketball with him and the boys. I left his house wanting to be just like him. A few years later, Ejay invited me to come and spend a weekend with him in Nottingham where I was first introduced to Swodei. She greeted me with open arms and a warm smile that made me feel nothing but welcome. Now, it brings me nothing but joy to be able to do the same in welcoming her to the family and embracing her as both a cousin and a sister.</p>
-                <p>I wish the two of you eternal joy and happiness and I pray that God continues to guide and bless your union.</p>
-                <p>Obi<span class="lead"><i class="fa fa-quote-right"></i></span>
+                <p>I wish the two of you eternal joy and happiness and I pray that God continues to guide and bless your union.<span class="lead"><i class="fa fa-quote-right"></i></span>
                 </p>
                 </span>
             </div>
-            <div class="col-sm-3" style="border:1px solid #d3d3d3;border-top:none;border-bottom:none;">
-                <a href="">
-                    <img id="registry" src="../img/registry-image.png" alt="registry" style="display:inline-block;" />
+            <div class="col-sm-3 regrsvp">
+                <a href="../our-registries.html">
+                    <img class="registry" src="../img/registry-image.png" alt="registry" />
                 </a>
                 <a href="">
-                    <img id="rsvp" src="../img/rsvp-image.png" alt="rsvp" style="display:inlne-block;margin-top:20px;" />
+                    <img class="rsvp breathing-space-above" src="../img/rsvp-image.png" alt="rsvp" />
                 </a>
             </div>
         </div>
-        <hr style="border-top:1px solid #d3d3d3;" />
-        <div class="row" style="margin-top:20px;">
+        <footer class="row bg-blue padding-below padding-above breathing-space-above">
             <div class="col-sm-12">
-                <p class="pull-left">Created by <a href="http://www.socialme.co">SocialMe</a> &copy; 2014</p>
+                <p class="text-left">Created by <a href="http://www.socialme.co">SocialMe</a> &copy; 2014 All rights reserved.</p>
             </div>
-        </div>
+        </footer>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

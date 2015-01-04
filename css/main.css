@@ -237,6 +237,11 @@ i.glyphicon {
     background-image: url('../img/gplaypattern.png');
     color: #243A6B;
 }
+
+.fa-quote-left {margin-right: 10px;color:#E5A91C; }
+.fa-quote-right {margin-left: 10px;color:#E5A91C; }
+
+.underline {text-decoration: underline;}
 /* Media queries */
 
 @media (max-width: 480px) {
