@@ -242,6 +242,8 @@ i.glyphicon {
 .fa-quote-right {margin-left: 10px;color:#E5A91C; }
 
 .underline {text-decoration: underline;}
+
+.speech-pic{height:300px;}
 /* Media queries */
 
 @media (max-width: 480px) {
