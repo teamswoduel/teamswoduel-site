@@ -153,8 +153,8 @@ footer p {
     width: 250px;
     height: 250px;
     /*box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);*/
-    border-bottom: 2px solid #fff;
-    border-right: 2px solid #fff;
+    /*border-bottom: 2px solid #fff;*/
+    /*border-right: 2px solid #fff;*/
     background: url(http://placehold.it/250x250) no-repeat;
     /*margin:5% auto 0 auto;*/
     /*overflow: hidden;*/
@@ -219,9 +219,23 @@ h3 small {
 .time {
     text-decoration: underline;
 }
-
-i.glyphicon{
+i.glyphicon {
     font-size: 1.2em;
+}
+.regbox {
+    height: 250px;
+}
+.regbox img {
+    height: 100%;
+    width: 100%;
+}
+.bold {
+    font-weight: 600;
+}
+.dropdown-menu>li>a {
+    background-color: #ebdec0;
+    background-image: url('../img/gplaypattern.png');
+    color: #243A6B;
 }
 /* Media queries */
 
