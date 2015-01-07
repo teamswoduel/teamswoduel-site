@@ -244,6 +244,11 @@ i.glyphicon {
 .underline {text-decoration: underline;}
 
 .speech-pic{height:300px;}
+
+.italic {font-style: italic;text-align: center;}
+
+.threesize{font-size:3em;}
+.twosize{font-size: 2em;}
 /* Media queries */
 
 @media (max-width: 480px) {
