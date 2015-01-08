@@ -61,10 +61,11 @@ h3 small {
 }
 #wide-image,
 #wide-image-container {
-    min-height: 200px;
-    height: 200px;
+    min-height: ;
+    height: ;
 }
 #wide-image {
+    height:100%;
     width: 100%;
     max-width: 100%;
 }
