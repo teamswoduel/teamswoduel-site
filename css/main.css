@@ -24,7 +24,7 @@ ul li a {
 .bg-beige,
 body {
     background-color: #ebdec0;
-    background-image: url('../img/gplaypattern.png');
+    /*background-image: url('../img/gplaypattern.png');*/
 }
 .bg-blue {
     background-color: #243A6B;
@@ -126,7 +126,7 @@ footer p {
 .nav-tabs>li.active>a:hover,
 .nav-tabs>li.active>a:focus {
     background-color: #ebdec0;
-    background-image: url('../img/gplaypattern.png');
+    /*background-image: url('../img/gplaypattern.png');*/
     border: none;
     border-bottom: 2px solid #243A6B;
     color: #D94E67;
@@ -135,7 +135,7 @@ footer p {
 .nav>li>a:hover,
 .nav>li>a:focus {
     background-color: #ebdec0;
-    background-image: url('../img/gplaypattern.png');
+    /*background-image: url('../img/gplaypattern.png');*/
     border-bottom: 2px solid #243A6B;
     color: #D94E67;
 }
@@ -235,7 +235,7 @@ i.glyphicon {
 }
 .dropdown-menu>li>a {
     background-color: #ebdec0;
-    background-image: url('../img/gplaypattern.png');
+    /*background-image: url('../img/gplaypattern.png');*/
     color: #243A6B;
 }
 
